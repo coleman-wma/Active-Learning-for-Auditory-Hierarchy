@@ -5,6 +5,7 @@ Active Learning code for an experiment to assess methods for minimising the manu
 Subjects the dataset to agglomerative clustering using the inverse of euclidean distance as a similarity metric. This process defines clusters of similar instances in across the feature space which is used in Exploration Guided Active Learning (EGAL) to select informative instances for labelling purposes. The code here also provides functions used to measure the distance between individual instances.
 
 #### classification_accuracy.py
+Experiment 3 also involved an analysis of a number of different feature representations. This code makes it easy to run a series of CV tests to compare performance.
 
 #### egal_functions.py
 A code implementation of the EGAL algorithm.
