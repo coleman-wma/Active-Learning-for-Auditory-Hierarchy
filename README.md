@@ -8,7 +8,7 @@ Subjects the dataset to agglomerative clustering using the inverse of euclidean 
 Experiment 3 also involved an analysis of a number of different feature representations. This code makes it easy to run a series of CV tests to compare performance.
 
 #### egal_functions.py
-A code implementation of the EGAL algorithm.
+A code implementation of the EGAL algorithm. EGAL identifies dense clusters of unlabelled instances which are furthest from already labelled instances. The selected instances can be presented to an oracle for labelling.
 
 #### munging_functions.py
 Various data munging functions to implement clustering, EGAL and USAL.
