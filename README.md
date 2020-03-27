@@ -14,7 +14,7 @@ A code implementation of the EGAL algorithm. EGAL identifies dense clusters of u
 Various data munging functions to implement clustering, EGAL and USAL.
 
 #### random_usc.py
-This code implements an Uncertainty Selection Active Learning algorithm, which uses model predictions to identify instances the model is most uncertain of as these are thought to be more informative for labelling purposes than instances the model predicts confidently on.
+This code implements a number of different selection methods which were ultimately compared with the EGAL selection method. Uncertainty Sampling Active Learning (USAL) uses model predictions to identify instances the model is most uncertain of as these are thought to be more informative for labelling purposes.
 
 #### statistical_testing_II.py
 Running statistical tests on the results obtained using Wilcoxon signed-rank and Friedman tests.
