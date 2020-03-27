@@ -17,7 +17,7 @@ Various data munging functions to implement clustering, EGAL and USAL.
 This code implements a number of different selection methods which were ultimately compared with the EGAL selection method. Uncertainty Sampling Active Learning (USAL) uses model predictions to identify instances the model is most uncertain of as these are thought to be more informative for labelling purposes. Self Training approaches, where predicted labels were used in tandem with USAL were also implemented but found to be ineffective in this case. For baseline comparison a Random selection method was also implemented.
 
 #### statistical_testing_II.py
-Running statistical tests on the results obtained using Wilcoxon signed-rank and Friedman tests.
+Running statistical tests on the results obtained using the Wilcoxon rank sum test.
 
 #### trainTest_functions.py
 Model training functions.
